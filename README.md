@@ -136,27 +136,6 @@ python trajectory_visualization.py
 **Output:** `trajectories.png` 
 
 
-```
-
-## Project Structure
-```
-CASUAL-HTP-MULTI/
-├── data/
-│   └── datasets/sdd_split/     # Preprocessed SDD data
-├── models.py                    # Extended model (with embeddings)
-├── train.py                     # Training script
-├── evaluate_model.py            # Evaluation script
-├── ablation.py                  # Ablation study
-├── trajectory_visualization.py # Trajectory visualization
-├── checkpoint/                  # Extended model checkpoints
-├── CausalHTP/                   # Baseline model
-│   └── checkpoint/              # Baseline checkpoints
-└── ablation/                    # Ablation results
-```
-
----
-
-
 ## Troubleshooting
 
 ### Out of Memory
